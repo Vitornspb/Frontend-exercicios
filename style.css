@@ -105,3 +105,39 @@ body {
 .linkedin:hover {
     background: #005582;
 }
+
+@media screen and (max-width: 780px) {
+    #principal {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    .texto {
+        max-width: 100%;
+    }
+    #descricao {
+        text-align: center;
+    }
+    .links {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #nome {
+        font-size: 1.6rem;
+    }
+    #descricao {
+        font-size: 1rem;
+    }
+    .foto {
+        width: 150px;
+        height: 150px;
+        border-width: 3px;
+    }
+    .social {
+        padding: 14px 12px;
+        font-size: 0.9rem;
+    }
+}
